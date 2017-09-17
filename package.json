@@ -12,7 +12,7 @@
   "preferGlobal": true,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kevin-wynn/generator-reactjs-express.git"
+    "url": "git+https://github.com/kevin-wynn/reactjs-express-generator.git"
   },
   "keywords": [
     "reactjs",
@@ -22,9 +22,9 @@
   "author": "Kevin Wynn",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/kevin-wynn/generator-reactjs-express/issues"
+    "url": "https://github.com/kevin-wynn/reactjs-express-generator/issues"
   },
-  "homepage": "https://github.com/kevin-wynn/generator-reactjs-express#readme",
+  "homepage": "https://github.com/kevin-wynn/reactjs-express-generator#readme",
   "dependencies": {
     "colors": "^1.1.2",
     "copy-dir": "^0.3.0",
