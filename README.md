@@ -44,4 +44,4 @@ app
 - `package.json` the packaged setup
 - `app.js` the server file
 
-TODO: documentation/usage, help, ticketing
+[Read Wiki and Documentation](https://github.com/kevin-wynn/reactjs-express-generator/wiki)

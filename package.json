@@ -1,6 +1,6 @@
 {
   "name": "reactjs-express-generator",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "ReactJs Express generator is a generator designed to set up an ExpressJs back end with a ReactJs front end",
   "main": "./lib/index.js",
   "scripts": {
