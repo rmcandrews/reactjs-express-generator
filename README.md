@@ -4,7 +4,7 @@ This generator is a simple lightweight way to set up a skeleton for a ReactJS fr
 
 To install run:
 - `npm -g reactjs-express-generator`
-- `rjs-gen` in the directory you want to install your app in
+- `res-gen` in the directory you want to install your app in
 
 ### File structure:
 ```
