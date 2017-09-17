@@ -1,6 +1,6 @@
 {
   "name": "generator-reactjs-express",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "ReactJs Express generator is a yeoman generator designed to set up an ExpressJs back end with a ReactJs front end",
   "homepage": "",
   "author": {
