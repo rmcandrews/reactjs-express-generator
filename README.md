@@ -32,13 +32,13 @@ app
 ```
 
 ### File descriptions:
-- `routes -> users.js` contains a boilerplate route for hitting /users server point
-- `src -> index.html` the base app page
-- `src -> app -> index.jsx` the reactJS base index file
-- `src -> public -> client.min.js` the compiled reactJS code that is called from `index.html`
-- `src -> public -> css -> main.min.css` the minified css compiled from the `scss` directory
-- `src -> scss -> _fonts.scss` the fonts set up scss file
-- `src -> scss -> main.scss` the main scss file that gets minified and compiled to css
+- `routes/users.js` contains a boilerplate route for hitting /users server point
+- `src/index.html` the base app page
+- `src/app/index.jsx` the reactJS base index file
+- `src/public/client.min.js` the compiled reactJS code that is called from `index.html`
+- `src/public/css/main.min.css` the minified css compiled from the `scss` directory
+- `src/scss/_fonts.scss` the fonts set up scss file
+- `src/scss/main.scss` the main scss file that gets minified and compiled to css
 - `README.md` the readme file
 - `webpack.config.js` the reactJS environment setup file
 - `package.json` the packaged setup
