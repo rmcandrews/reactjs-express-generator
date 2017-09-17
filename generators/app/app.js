@@ -1,3 +1,8 @@
+'use strict';
+const Generator = require('yeoman-generator');
+const chalk = require('chalk');
+const yosay = require('yosay');
+
 var express = require('express');
 var http = require('http');
 var bodyParser = require('body-parser');
@@ -14,4 +19,8 @@ app.use('/users', users);
 
 http.createServer(app).listen(3000);
 
-module.exports = Generator;
+module.exports = class extends Generator {
+  install() {
+    this.installDependencies();
+  }
+};
