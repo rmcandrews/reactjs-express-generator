@@ -11,7 +11,7 @@
   "files": [
     "generators"
   ],
-  "main": "generators/app.js",
+  "main": "generators/app/app.js",
   "keywords": [
     "reactjs",
     "expressjs",
