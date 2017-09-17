@@ -14,4 +14,4 @@ app.use('/users', users);
 
 http.createServer(app).listen(3000);
 
-module.exports = app;
+module.exports = Generator;
