@@ -27,10 +27,8 @@
   "homepage": "https://github.com/kevin-wynn/reactjs-express-generator#readme",
   "devDependencies": {
     "colors": "^1.1.2",
-    "copy-dir": "^0.3.0",
-    "current-dir": "^1.0.0"
-  },
-  "dependencies": {
-    "package.root": "^1.0.3"
+    "current-dir": "^1.0.0",
+    "package.root": "^1.0.3",
+    "file-system": "^2.2.2"
   }
 }
