@@ -1,9 +1,0 @@
-{
-  "generator-node": {
-    "promptValues": {
-      "authorName": "Kevin Wynn",
-      "authorEmail": "kevin@robo-house.com",
-      "authorUrl": "http://robo-house.com"
-    }
-  }
-}

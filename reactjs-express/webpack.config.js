@@ -1,7 +1,7 @@
 var webpack = require('webpack');
 var path = require('path');
 var debug = require('debug');
-var proxy = require('http-proxy-middleware');
+// var proxy = require('http-proxy-middleware');
 
 var BUILD_DIR = path.resolve(__dirname, 'src/public');
 var APP_DIR = path.resolve(__dirname, 'src/app');

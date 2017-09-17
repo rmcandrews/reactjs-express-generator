@@ -1,0 +1,33 @@
+{
+  "name": "reactjs-express-generator",
+  "version": "1.0.0",
+  "description": "ReactJs Express generator is a generator designed to set up an ExpressJs back end with a ReactJs front end",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "reactjs-express-generate": "./bin/generate.js"
+  },
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevin-wynn/generator-reactjs-express.git"
+  },
+  "keywords": [
+    "reactjs",
+    "express",
+    "generator"
+  ],
+  "author": "Kevin Wynn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevin-wynn/generator-reactjs-express/issues"
+  },
+  "homepage": "https://github.com/kevin-wynn/generator-reactjs-express#readme",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "copy-dir": "^0.3.0",
+    "current-dir": "^1.0.0"
+  }
+}
