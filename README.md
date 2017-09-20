@@ -30,6 +30,7 @@ app
 │   └───public
 │       │   client.min.js
 │       └───css
+│           │   main.css
 │           │   main.min.css
 │   └───scss
 │       │   _fonts.scss
@@ -49,6 +50,7 @@ app
 - `src/app/index.jsx` the reactJS base index file
 - `src/public/client.min.js` the compiled reactJS code that is called from `index.html`
 - `src/public/css/main.min.css` the minified css compiled from the `scss` directory
+- `src/public/css/main.css` the pretty css compiled from the `scss` directory
 - `src/scss/_fonts.scss` the fonts set up scss file
 - `src/scss/main.scss` the main scss file that gets minified and compiled to css
 - `README.md` the readme file
