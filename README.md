@@ -4,7 +4,14 @@ This generator is a simple lightweight way to set up a skeleton for a ReactJS fr
 
 To install run:
 - `npm -g reactjs-express-generator`
-- `res-gen` in the directory you want to install your app in
+- `rjs-gen` in the directory you want to install your app in
+
+Optional database support flags:
+- `--mysql` for mysql support
+- `--mongodb` for mongodb support
+
+Example for mysql project would look like:
+`rjs-gen --mysql`
 
 ### File structure:
 ```
