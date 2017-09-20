@@ -13,6 +13,10 @@ Optional database support flags:
 Example for mysql project would look like:
 `rjs-gen --mysql`
 
+The app will create a config.js file in the root directory - this is where you can store global variables that don't change as well as secure api keys you dont want to share, database credentials, etc.
+
+When the app gets generated it uses the config file in the `users.js` route for the name
+
 ### File structure:
 ```
 app
@@ -20,7 +24,7 @@ app
 │   │   users.js
 │   
 └───src
-    │   index.html
+│   │   index.html
 │   └───app
 │       │   index.jsx
 │   └───public
@@ -35,7 +39,8 @@ app
 │   webpack.config.js
 │   package.json
 │   LICENSE
-│   app.js    
+│   config.js
+│   app.js
 ```
 
 ### File descriptions:
@@ -49,6 +54,7 @@ app
 - `README.md` the readme file
 - `webpack.config.js` the reactJS environment setup file
 - `package.json` the packaged setup
+- `config.js` your app config file
 - `app.js` the server file
 
 [Read Wiki and Documentation](https://github.com/kevin-wynn/reactjs-express-generator/wiki)
