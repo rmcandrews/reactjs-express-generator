@@ -2,5 +2,5 @@
 
 var generator = require('../lib/index.js');
 
-// Displays the text in the console
-generator.copy();
+// create app
+generator.makeApp();

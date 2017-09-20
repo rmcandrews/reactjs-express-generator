@@ -9,7 +9,7 @@ class App extends React.Component {
       <div className="home">
         <User />
         <p>Welcome to the ReactJS and ExpressJS generator</p>
-        <p>Check out the <a href="/docs">documentation</a> to get started.</p>
+        <p>Check out the <a href="https://github.com/kevin-wynn/reactjs-express-generator/wiki">documentation</a> to get started.</p>
       </div>
     );
   }
