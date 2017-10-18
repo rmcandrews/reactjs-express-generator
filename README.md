@@ -3,7 +3,7 @@
 This generator is a simple lightweight way to set up a skeleton for a ReactJS front end with an ExpressJS back end.
 
 To install run:
-- `npm -g reactjs-express-generator`
+- `npm install -g reactjs-express-generator`
 - `rjs-gen` in the directory you want to install your app in
 
 Optional database support flags:
