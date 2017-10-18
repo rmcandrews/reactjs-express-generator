@@ -2,8 +2,8 @@
 
 This generator is a simple lightweight way to set up a skeleton for a ReactJS front end with an ExpressJS back end.
 
-To install run: (for the time being some global packages are not being installed, add them to the install to make sure rjs-gen will run)
-- `npm install -g reactjs-express-generator colors commander current-dir file-system path questions shelljs`
+To install run:
+- `npm install -g reactjs-express-generator`
 - `rjs-gen` in the directory you want to install your app in
 
 Optional database support flags:
