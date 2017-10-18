@@ -1,7 +1,7 @@
 import React from 'react';
 import {render} from 'react-dom';
 
-import User from './components/User.jsx';
+import User from '../components/User.jsx';
 
 class Home extends React.Component {
   render () {
