@@ -1,10 +1,10 @@
 # reactjs-express-generator
 
-This generator is a simple lightweight way to set up a skeleton for a ReactJS front end with an ExpressJS back end.
+This generator is a simple lightweight way to set up a skeleton for a React front end with an Express back end.
 
 To install run:
 - `npm install -g reactjs-express-generator`
-- `rjs-gen` in the directory you want to install your app in
+- `regen` in the directory you want to install your app in
 
 Optional database support flags:
 - `--mysql` for mysql support
@@ -14,7 +14,7 @@ Optional multi-page app support flags:
 - `--router` for multi-page support
 
 Example for mysql project would look like:
-`rjs-gen --mysql --router`
+`regen --mysql --router`
 
 The app will create a config.js file in the root directory - this is where you can store global variables that don't change as well as secure api keys you dont want to share, database credentials, etc.
 
