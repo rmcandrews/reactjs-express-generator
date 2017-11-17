@@ -20,6 +20,8 @@ The app will create a config.js file in the root directory - this is where you c
 
 When the app gets generated it uses the config file in the `users.js` route for the name
 
+**Update 11/17/17:** As of now the styles are all handled through webpack as they should be. You can see the loaders in the `webpack.config.js` file. As well as notice the one required import of styles in `index.jsx` #`import './../scss/main.scss';`.
+
 ### File structure (single page app):
 ```
 app
