@@ -1,6 +1,6 @@
 {
   "name": "reactjs-express-generator",
-  "version": "1.2.5",
+  "version": "1.2.6",
   "description": "React-Express generator is a generator designed to set up an ExpressJs back end with a ReactJs front end",
   "main": "./lib/index.js",
   "scripts": {
@@ -25,7 +25,7 @@
     "url": "https://github.com/kevin-wynn/reactjs-express-generator/issues"
   },
   "homepage": "https://github.com/kevin-wynn/reactjs-express-generator#readme",
-  "devDependencies": {
+  "dependencies": {
     "colors": "^1.1.2",
     "commander": "^2.11.0",
     "current-dir": "^1.0.0",
