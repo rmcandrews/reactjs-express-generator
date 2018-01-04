@@ -9,6 +9,7 @@ To install run:
 Optional database support flags:
 - `--mysql` for mysql support
 - `--mongodb` for mongodb support
+- `--postgres` for postgres support
 
 Optional multi-page app support flags:
 - `--router` for multi-page support
