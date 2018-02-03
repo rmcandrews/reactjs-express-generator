@@ -12,14 +12,18 @@ Optional database support flags:
 - `--postgres` for postgres support
 
 Optional multi-page app support flags:
-- `--router` for multi-page support
+- `--multipage` for multi-page support
 
 Example for mysql project would look like:
-`regen --mysql --router`
+`regen --mysql --multipage`
 
 The app will create a config.js file in the root directory - this is where you can store global variables that don't change as well as secure api keys you dont want to share, database credentials, etc.
 
 When the app gets generated it uses the config file in the `users.js` route for the name
+
+**Updated 2/2/18:** As of now you can use the generator to create routes within your app. Currently its in a very beta version that is heavily reliant upon using the same file structure the generator creates.
+
+In order to run the generator, within your apps `root` directory run `regen -r [routeName]` and it will create a route in `./routes/` and add the route to your `app.js` file.
 
 **Update 11/17/17:** As of now the styles are all handled through webpack as they should be. You can see the loaders in the `webpack.config.js` file. As well as notice the one required import of styles in `index.jsx` #`import './../scss/main.scss';`.
 
