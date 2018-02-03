@@ -2,20 +2,31 @@
 
 This generator is a simple lightweight way to set up a skeleton for a React front end with an Express back end.
 
-To install run:
+#### To install run:
 - `npm install -g reactjs-express-generator`
 - `regen` in the directory you want to install your app in
 
-Optional database support flags:
+#### Optional database support flags:
 - `--mysql` for mysql support
 - `--mongodb` for mongodb support
 - `--postgres` for postgres support
 
-Optional multi-page app support flags:
+#### Optional multi-page app support flags:
 - `--multipage` for multi-page support
 
 Example for mysql project would look like:
 `regen --mysql --multipage`
+
+#### Route Generation
+- `regen -r [routeName]` to create a route from the root directory
+
+**PLEASE NOTE**
+There are various bugs with the route generation, these will be resolved with time as I can get around to making changes. But for now you should be aware of the following:
+1. If you add an existing route - it will not check for existing routes of the same name and make duplicates
+1. This generator is very stupid in the sense that it relies on certain existing variables in `app.js` from the generators initial build of an app
+1. It doesn't check for existing route files and may overwrite your existing routes if they have the same name
+
+**Please file any bugs on the github project, please create branches and pull requests when adding new features, bug fixes, or improvements**
 
 The app will create a config.js file in the root directory - this is where you can store global variables that don't change as well as secure api keys you dont want to share, database credentials, etc.
 
