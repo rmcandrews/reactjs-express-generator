@@ -9,10 +9,9 @@ class Home extends React.Component {
     return (
       <div className="page">
         <Menu />
-        <div className="home">
+        <div className="users">
+          <h1>Users Page</h1>
           <User />
-          <p>Welcome to the ReactJS and ExpressJS generator</p>
-          <p>Check out the <a href="https://github.com/kevin-wynn/reactjs-express-generator/wiki">documentation</a> to get started.</p>
         </div>
       </div>
     );

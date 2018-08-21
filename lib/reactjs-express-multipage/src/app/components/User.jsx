@@ -14,7 +14,7 @@ class User extends Component {
   }
 
   fetchUsers() {
-    axios.get('/users')
+    axios.get('/users/getUsers')
       .then( (response) => {
         this.setState({
           user: response.data
