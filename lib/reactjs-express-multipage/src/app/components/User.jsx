@@ -1,27 +1,25 @@
-import React, { Component } from 'react';
-import axios from 'axios';
+import React, { Component } from "react";
 
 class User extends Component {
-
   constructor(props) {
     super(props);
     this.state = {
       user: {
-        name: ''
+        name: ""
       }
-    }
+    };
     this.fetchUsers = this.fetchUsers.bind(this);
   }
 
   fetchUsers() {
-    axios.get('/users/getUsers')
-      .then( (response) => {
-        this.setState({
-          user: response.data
-        });
+    fetch("/users/getUsers")
+      .then(response => {
+        return response.json();
       })
-      .catch( (error) => {
-        console.log(error);
+      .then(json => {
+        this.setState({
+          user: json
+        });
       });
   }
 
