@@ -1,11 +1,11 @@
-import React from 'react';
-import {render} from 'react-dom';
+import React from "react";
+import { render } from "react-dom";
 
-import User from '../components/User.jsx';
-import Menu from '../components/Menu.jsx';
+import User from "../components/User.jsx";
+import Menu from "../components/Menu.jsx";
 
 class Home extends React.Component {
-  render () {
+  render() {
     return (
       <div className="page">
         <Menu />
