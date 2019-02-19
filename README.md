@@ -1,10 +1,9 @@
+# reactjs-express-generator
 ![NPM](https://img.shields.io/npm/l/reactjs-express-generator.svg?style=flat)
 ![Libraries.io dependency status for GitHub repo](https://img.shields.io/librariesio/github/kevin-wynn/reactjs-express-generator.svg?style=flat)
 ![npm](https://img.shields.io/npm/dm/reactjs-express-generator.svg?style=flat)
 ![GitHub last commit](https://img.shields.io/github/last-commit/kevin-wynn/reactjs-express-generator.svg?style=flat)
 ![GitHub commit activity the past month](https://img.shields.io/github/commit-activity/m/kevin-wynn/reactjs-express-generator.svg?style=flat)
-
-# reactjs-express-generator
 
 This generator is a simple lightweight way to set up a skeleton for a React front end with an Express back end.
 
